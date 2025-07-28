@@ -1,0 +1,14 @@
+/* Header text color fix */
+header {
+    background-color: #000000 !important;
+}
+
+header h1,
+header .text-white,
+header a:not(:hover) {
+    color: #F59E0B !important; /* Yellow-400 */
+}
+
+header a:hover {
+    color: #FBBF24 !important; /* Yellow-500 for hover */
+}

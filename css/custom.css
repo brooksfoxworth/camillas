@@ -1,0 +1,104 @@
+/* Custom CSS for Earth Cafe */
+
+/* Remove fixed footer/dock */
+footer {
+    position: static !important;
+    background-color: #ffffff;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+/* Base text color */
+body {
+    color: #000000;
+}
+
+/* Menu page specific styles */
+#menu-content {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Menu page intro text */
+#menu-content > div:first-child {
+    color: #ffffff !important;
+}
+
+/* Menu navigation links */
+#menu-content nav a {
+    color: #ffffff !important;
+    border-bottom-color: #ffffff40 !important;
+}
+
+#menu-content nav a:hover {
+    border-bottom-color: #ffffff !important;
+}
+
+/* Menu category headings */
+#menu-content .menu-category h2,
+#menu-content .menu-category h3,
+#menu-content .menu-category h4 {
+    color: #ffffff !important;
+    border-bottom-color: #4a5568 !important;
+}
+
+/* Menu items */
+#menu-content .menu-category .bg-white {
+    background-color: #1a202c !important;
+    color: #ffffff !important;
+}
+
+#menu-content .menu-category .text-gray-900,
+#menu-content .menu-category .text-gray-600,
+#menu-content .menu-category p,
+#menu-content .menu-category span,
+#menu-content .menu-category div {
+    color: #ffffff !important;
+}
+
+#menu-content .menu-category .bg-green-600:hover {
+    background-color: #2f855a !important;
+}
+
+/* Update hero section text to be white on dark background */
+.hero-section {
+    color: #ffffff;
+}
+
+.hero-section h1,
+.hero-section h2,
+.hero-section h3,
+.hero-section p,
+.hero-section a {
+    color: #ffffff !important;
+}
+
+/* Update footer text colors */
+footer {
+    color: #000000;
+}
+
+footer h3,
+footer h4,
+footer p,
+footer a,
+footer li {
+    color: #000000 !important;
+}
+
+/* Update mobile menu text colors */
+#mobile-menu a {
+    color: #ffffff !important;
+}
+
+/* Ensure form inputs have dark text */
+input, textarea, select {
+    color: #000000 !important;
+}
+
+/* Add this to your existing styles or in a style tag in the head */
+:root {
+    --text-dark: #000000;
+    --text-medium: #333333;
+    --text-light: #666666;
+}
